@@ -1,0 +1,21 @@
+// if ($_SERVER["REQUEST_METHOD"] == "POST") {
+//     // Open the CSV file
+//     $csvFile = 'sample.csv';
+//     $file_handle = fopen($csvFile, 'r');
+
+//     // Loop through each row in the CSV file
+//     while (!feof($file_handle)) {
+//         $line = fgetcsv($file_handle, 0, ',');
+//         if ($line) {
+//             // Compare CSV data directly with POST fields
+//             foreach ($_POST as $postField) {
+//                 if (in_array($postField, $line)) {
+//                     echo "Match found: " . $postField . "<br>";
+//                 }
+//             }
+//         }
+//     }
+
+//     // Close the CSV file
+//     fclose($file_handle);
+// }
